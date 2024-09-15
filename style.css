@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+.navbar__s1__title{
+    color: rgb(126, 3, 126);
+}
+
+.navbar__s2{
+    border: solid black 1px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+.navbar__s2 input{
+    border-style: none;
+    font-size: 15px;
+    width: 100%;
+    
+}
+
+.navbar__s2 input:focus{
+outline: none;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+
+.Category{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.Category p{
+    background-color:purple;
+    color: white;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+
+}
+
+
+
+.sale-img img{
+    width: 100%;
+}
+
+
+.course-card{
+    width: 300px;
+}
+.course-card img{
+    width: 100%;
+    height: 50%;
+    
+}
+
+
+.Recommended{
+    padding: 10px;
+}
+
+.Recommended__title{
+    margin-bottom: 10px;
+}
+
+.Recommended__rol{
+    color:gray;
+    font-size: 20px;
+    font: weight lighter 500px;
+    
+}
+.Recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.Topic{
+    padding: 10px;
+}
+
+.Topic__container{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Topic__container p{
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 23%;
+}
+
+
+.Popular{
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.Popular p{
+    margin-top: 10px;
+    color: grey;
+    font-size: 20px;
+    font-weight: weight lighter 500px;
+}
+
+.Popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+
+.footer__section{
+    display: flex;
+    gap: 50px;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.footer__two p{
+    font-size: 20px;
+}
+
+
+
+
+
+.footer__section1 p,.footer__section2 p{
+    margin: 20px;
+}
